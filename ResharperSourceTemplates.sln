@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlClientLibrary", "SqlClie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTemplateLibrary", "CommonTemplateLibrary\CommonTemplateLibrary.csproj", "{E9D845A4-FC8A-4D89-8957-1F54E76FD2A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{6C8EF07B-47E3-4A60-B551-56AF21A2AF87}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{E9D845A4-FC8A-4D89-8957-1F54E76FD2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9D845A4-FC8A-4D89-8957-1F54E76FD2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9D845A4-FC8A-4D89-8957-1F54E76FD2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C8EF07B-47E3-4A60-B551-56AF21A2AF87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C8EF07B-47E3-4A60-B551-56AF21A2AF87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C8EF07B-47E3-4A60-B551-56AF21A2AF87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C8EF07B-47E3-4A60-B551-56AF21A2AF87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +58,7 @@ Global
 		{8EB8C3CA-363B-43E7-B06B-DB282C320543} = {9345285F-5AC0-4F28-9719-037658AD3CB4}
 		{ED3AC05B-369A-49F0-B6EB-0E55F420CCA4} = {E11F77DE-C77C-49B3-9A2C-AD5B16234471}
 		{E9D845A4-FC8A-4D89-8957-1F54E76FD2A1} = {E11F77DE-C77C-49B3-9A2C-AD5B16234471}
+		{6C8EF07B-47E3-4A60-B551-56AF21A2AF87} = {9345285F-5AC0-4F28-9719-037658AD3CB4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0793A1DA-D51E-491B-A146-EE4EF1D88A78}
