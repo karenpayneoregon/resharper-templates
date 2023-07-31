@@ -3,7 +3,7 @@ using System.Text.Json;
 
 // ReSharper disable InconsistentNaming
 
-namespace CommonTemplateLibrary.LanguageExtensions.Helpers;
+namespace CommonTemplateLibrary.LanguageExtensions;
 public static class JsonExtensions
 {
     /// <summary>
