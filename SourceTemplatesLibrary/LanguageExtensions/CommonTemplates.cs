@@ -1,5 +1,6 @@
 ﻿using JetBrains.Annotations;
 using SourceTemplatesLibrary.LanguageExtensions.Helpers;
+// ReSharper disable InconsistentNaming
 
 namespace SourceTemplatesLibrary.LanguageExtensions;
 public static class CommonTemplates

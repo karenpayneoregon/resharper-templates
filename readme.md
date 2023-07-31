@@ -79,7 +79,9 @@ List<Customers> customersList =
 
 Type the variable name, <kbd>.</kbd> then **foreach** (no upper casing) and press <kbd>Enter</kbd>
 
-![selecting foreach](assets/figure5.png) to get a prompt same as last example for var or type then variable name.
+![selecting foreach](assets/figure5.png) 
+
+to get a prompt same as last example for var or type then variable name.
 
 ### PostFix templates list
 

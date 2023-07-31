@@ -1,5 +1,6 @@
 ﻿using JetBrains.Annotations;
 using Microsoft.EntityFrameworkCore;
+// ReSharper disable InconsistentNaming
 
 namespace SourceTemplatesLibrary.LanguageExtensions;
 public static class EntityFrameworkCoreTemplates

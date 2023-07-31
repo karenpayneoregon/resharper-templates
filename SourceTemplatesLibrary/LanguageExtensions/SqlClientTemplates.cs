@@ -2,6 +2,7 @@
 using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using SourceTemplatesLibrary.LanguageExtensions.Helpers;
+// ReSharper disable InconsistentNaming
 
 namespace SourceTemplatesLibrary.LanguageExtensions;
 public static class SqlClientTemplates
@@ -39,6 +40,7 @@ public static class SqlClientTemplates
     {
         var dto = reader.GetDateOnly(index); 
     }
+
     [SourceTemplate]
     
     public static void gdo1(this SqlDataReader reader, int index)

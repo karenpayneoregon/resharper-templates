@@ -4,6 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SourceTemplatesLibrary.Classes;
+// ReSharper disable InconsistentNaming
+// ReSharper disable IdentifierTypo
 
 namespace SourceTemplatesLibrary.LanguageExtensions;
 /// <summary>
