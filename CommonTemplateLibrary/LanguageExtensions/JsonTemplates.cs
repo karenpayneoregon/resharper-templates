@@ -4,7 +4,7 @@ using System.Text.Json;
 // ReSharper disable InconsistentNaming
 
 namespace CommonTemplateLibrary.LanguageExtensions;
-public static class JsonExtensions
+public static class JsonTemplates
 {
     /// <summary>
     /// Deserialize file
