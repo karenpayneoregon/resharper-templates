@@ -606,6 +606,10 @@ With what has been presented a developer can use the source templates provided a
 
 Clone the following GitHub repository and run the script under ConsoleApp1 project in the Scripts folder.
 
+## Article
+
+https://dev.to/karenpayneoregon/learn-resharper-postfix-and-source-templates-32lo
+
 
 
 
