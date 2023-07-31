@@ -26,6 +26,17 @@ public static class SqlClientTemplates
     }
 
     [SourceTemplate]
+    public static void createvanilla(this SqlConnection sender)
+    {
+        var connectionString = "";
+        var statement = "";
+        using SqlConnection cn = new(connectionString);
+        using SqlCommand cmd = new(statement, cn);
+        cn.Open();
+        //$ $END$
+    }
+
+    [SourceTemplate]
     public static void reader(this SqlCommand cmd)
     {
         SqlDataReader? reader = cmd.ExecuteReader();
@@ -39,11 +50,11 @@ public static class SqlClientTemplates
     [Macro(Target = "dto")]
     public static void gdo(this SqlDataReader reader, int index)
     {
-        var dto = reader.GetDateOnly(index); 
+        var dto = reader.GetDateOnly(index);
     }
 
     [SourceTemplate]
-    
+
     public static void gdo1(this SqlDataReader reader, int index)
     {
         var (day, month, year) = reader.GetDateOnly(index);
